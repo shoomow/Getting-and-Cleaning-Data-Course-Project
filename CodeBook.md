@@ -62,18 +62,18 @@ Notes:
 For more information about this dataset contact: activityrecognition@smartlab.ws
 ```
 
-## Transoformation
+## Transformation
 1. For the purposes of the excersise data contained in the ```Inertial Signals``` folders was not used.
 2. Five general goals of the excersise are listed in the script as well as in the README file.
 3. These goals are achieved by data manipulations with the use of R packages ```data.table``` and either ```dplyr``` or ```reshape2``` for the final delivery.
 4. The script is organized in the step-by-step format and contains all the necessary comments (and probably some unnecessary, too). It starts with loading required data and ends with saving a tidy dataset into your working directory.
 
 ## Variables
-```con``` - temp variable for files connections;
-```trsubject, xtrain, ytrain, testsubject, xtest, ytest, activity, features``` - data tables created out of project files
-```meanstd``` - logical vector subsetting only the `features` required by the excersise
-```test``` and ```train``` - data tables created in the result of the merge of the required subsets in ```train``` and ```test``` groups separately
-```complete``` - data table created by mergins ```test``` and ```train```
-```melted``` - table created from ```complete``` by melt() function of ```reshape2``` package
-```complete1``` - tbl object created with the use of ```dplyr``` package
-```mmean``` - tidy dataset with only average values
+* ```con``` - temp variable for files connections;
+* ```trsubject, xtrain, ytrain, testsubject, xtest, ytest, activity, features``` - data tables created out of project files
+* ```meanstd``` - logical vector subsetting only the `features` required by the excersise
+* ```test``` and ```train``` - data tables created in the result of the merge of the required subsets in ```train``` and ```test``` groups separately
+* ```complete``` - data table created by mergins ```test``` and ```train```
+* ```melted``` - table created from ```complete``` by melt() function of ```reshape2``` package
+* ```complete1``` - tbl object created with the use of ```dplyr``` package
+* ```mmean``` - tidy dataset with only average values
