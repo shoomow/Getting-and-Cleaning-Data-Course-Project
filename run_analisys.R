@@ -11,8 +11,6 @@
   library(dplyr)
   library(reshape2)
   library(data.table)
-  
-  setwd("C:/Users/Admin/Desktop/R/UCI HAR Dataset") ## change to your actual path here before trying out
 
 ## Step 0.2 Load the data.
 
