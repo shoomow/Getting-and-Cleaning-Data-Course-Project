@@ -59,7 +59,8 @@ Notes:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
-For more information about this dataset contact: activityrecognition@smartlab.ws```
+For more information about this dataset contact: activityrecognition@smartlab.ws
+```
 
 ## Transoformation
 1. For the purposes of the excersise data contained in the ```Inertial Signals``` folders was not used.
