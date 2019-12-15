@@ -67,10 +67,10 @@
 
 ## Step 3.1 Set descriptive names to the columns in the 'activities' DFs and 'subject' DFs
 
-  names(ytrain) = c("act_id", "activity")
-  names(ytest) = c("act_id", "activity")
-  names(trsubject) = "subject"
-  names(testsubject) = "subject"
+  names(ytrain) <- c("act_id", "activity")
+  names(ytest) <- c("act_id", "activity")
+  names(trsubject) <- "subject"
+  names(testsubject) <- "subject"
 
 ## Step 4 Merge columns in the primary datafile (X) with 'Y' dataset and 'subject' dataset, separately for test and train data.
 
@@ -79,8 +79,8 @@
 
 ## Step 4.1 Add a 'group' column to both resulting datafiles indicating whether it belongs to a train or to a test subset
 
-  test$group = "test"
-  train$group = "train"
+  test$group <- "test"
+  train$group <- "train"
 
 ## Step 5 Merge datafiles into one giagantic datafile
 
